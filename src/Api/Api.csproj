@@ -45,4 +45,12 @@
     <ItemGroup>
       <ProjectReference Include="..\Application\Application.csproj" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Filters\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Filters\ApiExceptionFilterAttribute.cs" />
+    </ItemGroup>
 </Project>
