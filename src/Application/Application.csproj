@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>VerticalSliceArchitecture.Application</RootNamespace>
+    <AssemblyName>VerticalSliceArchitecture.Application</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    
+    <AnalysisLevel>7-minimal</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <CodeAnalysisTreatWarningsAsErrors>false</CodeAnalysisTreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Azure.Core" Version="1.36.0" />
+    <PackageReference Include="Azure.Identity" Version="1.10.4" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+    <PackageReference Include="System.Runtime.Caching" Version="8.0.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+    <PackageReference Include="System.Security.AccessControl" Version="6.0.0" />
+    <PackageReference Include="System.Security.Cryptography.Cng" Version="5.0.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+    <PackageReference Include="System.Security.Permissions" Version="8.0.0" />
+    <PackageReference Include="System.Security.Principal.Windows" Version="5.0.0" />
+    <PackageReference Include="System.Text.Encoding" Version="4.3.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="8.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+    <PackageReference Include="System.Windows.Extensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Infrastructure\Files\CsvFileBuilder.cs" />
+    <Compile Remove="Infrastructure\Files\Maps\**" />
+    <Compile Remove="Features\TodoItems\**" />
+    <Compile Remove="Features\TodoLists\**" />
+    <Compile Remove="Common\Interfaces\ICsvFileBuilder.cs" />
+    <Compile Remove="Entities\TodoItem.cs" />
+    <Compile Remove="Entities\TodoList.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="Features\" />
+    <Folder Include="Infrastructure\Files\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Infrastructure\Files\Maps\**" />
+    <EmbeddedResource Remove="Features\TodoItems\**" />
+    <EmbeddedResource Remove="Features\TodoLists\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Infrastructure\Files\Maps\**" />
+    <None Remove="Features\TodoItems\**" />
+    <None Remove="Features\TodoLists\**" />
+  </ItemGroup>
+</Project>
