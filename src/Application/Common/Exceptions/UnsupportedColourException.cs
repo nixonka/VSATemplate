@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace VerticalSliceArchitecture.Application.Common.Exceptions;
+namespace VSATemplate.Application.Common.Exceptions;
 
 public class UnsupportedColourException : Exception
 {

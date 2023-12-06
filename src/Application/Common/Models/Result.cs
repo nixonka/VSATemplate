@@ -1,4 +1,4 @@
-﻿namespace VerticalSliceArchitecture.Application.Common.Models;
+﻿namespace VSATemplate.Application.Common.Models;
 
 public class Result
 {

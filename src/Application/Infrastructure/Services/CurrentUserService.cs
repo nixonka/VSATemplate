@@ -2,9 +2,9 @@ using System.Security.Claims;
 
 using Microsoft.AspNetCore.Http;
 
-using VerticalSliceArchitecture.Application.Common.Interfaces;
+using VSATemplate.Application.Common.Interfaces;
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Services;
+namespace VSATemplate.Application.Infrastructure.Services;
 
 public class CurrentUserService : ICurrentUserService
 {

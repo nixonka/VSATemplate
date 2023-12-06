@@ -1,6 +1,6 @@
-﻿using VerticalSliceArchitecture.Application.Common;
+﻿using VSATemplate.Application.Common;
 
-namespace VerticalSliceArchitecture.Application.Entities;
+namespace VSATemplate.Application.Entities;
 
 public class TodoItem : AuditableEntity, IHasDomainEvent
 {

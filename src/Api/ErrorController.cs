@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace VerticalSliceArchitecture.Api;
+namespace VSATemplate.Api;
 
 public class ErrorController : ControllerBase
 {

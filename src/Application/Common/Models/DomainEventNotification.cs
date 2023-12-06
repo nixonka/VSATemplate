@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace VerticalSliceArchitecture.Application.Common.Models;
+namespace VSATemplate.Application.Common.Models;
 
 public class DomainEventNotification<TDomainEvent> : INotification where TDomainEvent : DomainEvent
 {

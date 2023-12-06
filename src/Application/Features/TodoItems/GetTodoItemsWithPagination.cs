@@ -7,13 +7,13 @@ using MediatR;
 
 using Microsoft.AspNetCore.Mvc;
 
-using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.Common.Mappings;
-using VerticalSliceArchitecture.Application.Common.Models;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+using VSATemplate.Application.Common;
+using VSATemplate.Application.Common.Mappings;
+using VSATemplate.Application.Common.Models;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Infrastructure.Persistence;
 
-namespace VerticalSliceArchitecture.Application.Features.TodoItems;
+namespace VSATemplate.Application.Features.TodoItems;
 
 public class GetTodoItemsWithPaginationController : ApiControllerBase
 {

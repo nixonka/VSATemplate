@@ -4,9 +4,9 @@ using MediatR;
 
 using Microsoft.Extensions.Logging;
 
-using VerticalSliceArchitecture.Application.Common.Interfaces;
+using VSATemplate.Application.Common.Interfaces;
 
-namespace VerticalSliceArchitecture.Application.Common.Behaviours;
+namespace VSATemplate.Application.Common.Behaviours;
 
 public class PerformanceBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {

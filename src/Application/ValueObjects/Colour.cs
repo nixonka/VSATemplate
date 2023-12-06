@@ -1,7 +1,7 @@
-﻿using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.Common.Exceptions;
+﻿using VSATemplate.Application.Common;
+using VSATemplate.Application.Common.Exceptions;
 
-namespace VerticalSliceArchitecture.Application.ValueObjects;
+namespace VSATemplate.Application.ValueObjects;
 
 public class Colour : ValueObject
 {

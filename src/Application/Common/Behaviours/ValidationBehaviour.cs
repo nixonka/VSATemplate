@@ -2,9 +2,9 @@
 
 using MediatR;
 
-using ValidationException = VerticalSliceArchitecture.Application.Common.Exceptions.ValidationException;
+using ValidationException = VSATemplate.Application.Common.Exceptions.ValidationException;
 
-namespace VerticalSliceArchitecture.Application.Common.Behaviours;
+namespace VSATemplate.Application.Common.Behaviours;
 
 public class ValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

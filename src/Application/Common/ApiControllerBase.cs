@@ -3,7 +3,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace VerticalSliceArchitecture.Application.Common;
+namespace VSATemplate.Application.Common;
 
 [ApiController]
 [Route("api/[controller]")]

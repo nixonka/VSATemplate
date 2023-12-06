@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+using VSATemplate.Application.Infrastructure.Persistence;
 
 #nullable disable
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migrations
+namespace VSATemplate.Application.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -22,7 +22,7 @@ namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migra
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("VerticalSliceArchitecture.Application.Entities.TodoItem", b =>
+            modelBuilder.Entity("VSATemplate.Application.Entities.TodoItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -69,7 +69,7 @@ namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migra
                     b.ToTable("TodoItems");
                 });
 
-            modelBuilder.Entity("VerticalSliceArchitecture.Application.Entities.TodoList", b =>
+            modelBuilder.Entity("VSATemplate.Application.Entities.TodoList", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -99,9 +99,9 @@ namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migra
                     b.ToTable("TodoLists");
                 });
 
-            modelBuilder.Entity("VerticalSliceArchitecture.Application.Entities.TodoItem", b =>
+            modelBuilder.Entity("VSATemplate.Application.Entities.TodoItem", b =>
                 {
-                    b.HasOne("VerticalSliceArchitecture.Application.Entities.TodoList", "List")
+                    b.HasOne("VSATemplate.Application.Entities.TodoList", "List")
                         .WithMany("Items")
                         .HasForeignKey("ListId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -110,9 +110,9 @@ namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migra
                     b.Navigation("List");
                 });
 
-            modelBuilder.Entity("VerticalSliceArchitecture.Application.Entities.TodoList", b =>
+            modelBuilder.Entity("VSATemplate.Application.Entities.TodoList", b =>
                 {
-                    b.OwnsOne("VerticalSliceArchitecture.Application.ValueObjects.Colour", "Colour", b1 =>
+                    b.OwnsOne("VSATemplate.Application.ValueObjects.Colour", "Colour", b1 =>
                         {
                             b1.Property<int>("TodoListId")
                                 .HasColumnType("int");
@@ -133,7 +133,7 @@ namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migra
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("VerticalSliceArchitecture.Application.Entities.TodoList", b =>
+            modelBuilder.Entity("VSATemplate.Application.Entities.TodoList", b =>
                 {
                     b.Navigation("Items");
                 });

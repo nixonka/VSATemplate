@@ -11,11 +11,11 @@ using NUnit.Framework;
 
 using Respawn;
 
-using VerticalSliceArchitecture.Api;
-using VerticalSliceArchitecture.Application.Common.Interfaces;
-using VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+using VSATemplate.Api;
+using VSATemplate.Application.Common.Interfaces;
+using VSATemplate.Application.Infrastructure.Persistence;
 
-namespace VerticalSliceArchitecture.Application.IntegrationTests;
+namespace VSATemplate.Application.IntegrationTests;
 
 [SetUpFixture]
 public class Testing
@@ -41,7 +41,7 @@ public class Testing
 
         services.AddSingleton(Mock.Of<IWebHostEnvironment>(w =>
             w.EnvironmentName == "Development" &&
-            w.ApplicationName == "VerticalSliceArchitecture.Api"));
+            w.ApplicationName == "VSATemplate.Api"));
 
         services.AddLogging();
 

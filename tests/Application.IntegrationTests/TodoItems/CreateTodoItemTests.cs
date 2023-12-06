@@ -2,14 +2,14 @@
 
 using NUnit.Framework;
 
-using VerticalSliceArchitecture.Application.Common.Exceptions;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Features.TodoItems;
-using VerticalSliceArchitecture.Application.Features.TodoLists;
+using VSATemplate.Application.Common.Exceptions;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Features.TodoItems;
+using VSATemplate.Application.Features.TodoLists;
 
-using static VerticalSliceArchitecture.Application.IntegrationTests.Testing;
+using static VSATemplate.Application.IntegrationTests.Testing;
 
-namespace VerticalSliceArchitecture.Application.IntegrationTests.TodoItems;
+namespace VSATemplate.Application.IntegrationTests.TodoItems;
 public class CreateTodoItemTests : TestBase
 {
     [Test]

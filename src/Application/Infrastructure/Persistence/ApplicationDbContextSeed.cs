@@ -1,6 +1,6 @@
-﻿using VerticalSliceArchitecture.Application.ValueObjects;
+﻿using VSATemplate.Application.ValueObjects;
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+namespace VSATemplate.Application.Infrastructure.Persistence;
 
 public static class ApplicationDbContextSeed
 {

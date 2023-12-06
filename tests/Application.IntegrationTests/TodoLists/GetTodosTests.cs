@@ -2,13 +2,13 @@
 
 using NUnit.Framework;
 
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Features.TodoLists;
-using VerticalSliceArchitecture.Application.ValueObjects;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Features.TodoLists;
+using VSATemplate.Application.ValueObjects;
 
-using static VerticalSliceArchitecture.Application.IntegrationTests.Testing;
+using static VSATemplate.Application.IntegrationTests.Testing;
 
-namespace VerticalSliceArchitecture.Application.IntegrationTests.TodoLists;
+namespace VSATemplate.Application.IntegrationTests.TodoLists;
 public class GetTodosTests : TestBase
 {
     [Test]

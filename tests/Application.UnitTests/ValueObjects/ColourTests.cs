@@ -2,10 +2,10 @@
 
 using NUnit.Framework;
 
-using VerticalSliceArchitecture.Application.Common.Exceptions;
-using VerticalSliceArchitecture.Application.ValueObjects;
+using VSATemplate.Application.Common.Exceptions;
+using VSATemplate.Application.ValueObjects;
 
-namespace VerticalSliceArchitecture.Application.UnitTests.ValueObjects;
+namespace VSATemplate.Application.UnitTests.ValueObjects;
 
 public class ColourTests
 {

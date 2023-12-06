@@ -1,4 +1,4 @@
-﻿namespace VerticalSliceArchitecture.Application.Common.Exceptions;
+﻿namespace VSATemplate.Application.Common.Exceptions;
 
 public class NotFoundException : Exception
 {

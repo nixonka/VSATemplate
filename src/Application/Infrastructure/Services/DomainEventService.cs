@@ -2,11 +2,11 @@
 
 using Microsoft.Extensions.Logging;
 
-using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.Common.Interfaces;
-using VerticalSliceArchitecture.Application.Common.Models;
+using VSATemplate.Application.Common;
+using VSATemplate.Application.Common.Interfaces;
+using VSATemplate.Application.Common.Models;
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Services;
+namespace VSATemplate.Application.Infrastructure.Services;
 
 public class DomainEventService : IDomainEventService
 {

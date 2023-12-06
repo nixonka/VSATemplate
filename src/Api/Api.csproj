@@ -5,8 +5,8 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <AssemblyName>VerticalSliceArchitecture.Api</AssemblyName>
-        <RootNamespace>VerticalSliceArchitecture.Api</RootNamespace>
+        <AssemblyName>VSATemplate.Api</AssemblyName>
+        <RootNamespace>VSATemplate.Api</RootNamespace>
 
         <AnalysisLevel>7-minimal</AnalysisLevel>
         <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>

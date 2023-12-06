@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Migrations
+namespace VSATemplate.Application.Infrastructure.Persistence.Migrations
 {
     public partial class InitialMigration : Migration
     {

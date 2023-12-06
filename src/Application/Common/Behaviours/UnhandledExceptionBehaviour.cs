@@ -2,7 +2,7 @@
 
 using Microsoft.Extensions.Logging;
 
-namespace VerticalSliceArchitecture.Application.Common.Behaviours;
+namespace VSATemplate.Application.Common.Behaviours;
 
 public class UnhandledExceptionBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> where TRequest : IRequest<TResponse>
 {

@@ -1,7 +1,7 @@
-﻿using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.ValueObjects;
+﻿using VSATemplate.Application.Common;
+using VSATemplate.Application.ValueObjects;
 
-namespace VerticalSliceArchitecture.Application.Entities;
+namespace VSATemplate.Application.Entities;
 
 public class TodoList : AuditableEntity
 {

@@ -2,10 +2,10 @@
 
 using Microsoft.Extensions.Logging;
 
-using VerticalSliceArchitecture.Application.Common.Models;
-using VerticalSliceArchitecture.Application.Entities;
+using VSATemplate.Application.Common.Models;
+using VSATemplate.Application.Entities;
 
-namespace VerticalSliceArchitecture.Application.Features.TodoItems.EventHandlers;
+namespace VSATemplate.Application.Features.TodoItems.EventHandlers;
 
 public class TodoItemCompletedEventHandler : INotificationHandler<DomainEventNotification<TodoItemCompletedEvent>>
 {

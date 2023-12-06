@@ -3,12 +3,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.Common.Exceptions;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+using VSATemplate.Application.Common;
+using VSATemplate.Application.Common.Exceptions;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Infrastructure.Persistence;
 
-namespace VerticalSliceArchitecture.Application.Features.TodoLists;
+namespace VSATemplate.Application.Features.TodoLists;
 
 public class DeleteTodoListController : ApiControllerBase
 {

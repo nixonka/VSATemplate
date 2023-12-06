@@ -3,10 +3,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
-using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.Common.Interfaces;
+using VSATemplate.Application.Common;
+using VSATemplate.Application.Common.Interfaces;
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+namespace VSATemplate.Application.Infrastructure.Persistence;
 
 public class ApplicationDbContext : DbContext
 {

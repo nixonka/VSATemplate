@@ -8,12 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using VerticalSliceArchitecture.Application.Common.Behaviours;
-using VerticalSliceArchitecture.Application.Common.Interfaces;
-using VerticalSliceArchitecture.Application.Infrastructure.Persistence;
-using VerticalSliceArchitecture.Application.Infrastructure.Services;
+using VSATemplate.Application.Common.Behaviours;
+using VSATemplate.Application.Common.Interfaces;
+using VSATemplate.Application.Infrastructure.Persistence;
+using VSATemplate.Application.Infrastructure.Services;
 
-namespace VerticalSliceArchitecture.Application;
+namespace VSATemplate.Application;
 
 public static class DependencyInjection
 {

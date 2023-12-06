@@ -3,9 +3,9 @@ using AutoMapper.QueryableExtensions;
 
 using Microsoft.EntityFrameworkCore;
 
-using VerticalSliceArchitecture.Application.Common.Models;
+using VSATemplate.Application.Common.Models;
 
-namespace VerticalSliceArchitecture.Application.Common.Mappings;
+namespace VSATemplate.Application.Common.Mappings;
 
 public static class MappingExtensions
 {

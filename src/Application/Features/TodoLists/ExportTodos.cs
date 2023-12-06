@@ -6,13 +6,13 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-using VerticalSliceArchitecture.Application.Common;
-using VerticalSliceArchitecture.Application.Common.Interfaces;
-using VerticalSliceArchitecture.Application.Common.Mappings;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Infrastructure.Persistence;
+using VSATemplate.Application.Common;
+using VSATemplate.Application.Common.Interfaces;
+using VSATemplate.Application.Common.Mappings;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Infrastructure.Persistence;
 
-namespace VerticalSliceArchitecture.Application.Features.TodoLists;
+namespace VSATemplate.Application.Features.TodoLists;
 
 public class ExportTodosController : ApiControllerBase
 {

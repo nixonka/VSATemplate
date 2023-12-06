@@ -2,11 +2,11 @@
 
 using CsvHelper;
 
-using VerticalSliceArchitecture.Application.Common.Interfaces;
-using VerticalSliceArchitecture.Application.Features.TodoLists;
-using VerticalSliceArchitecture.Application.Infrastructure.Files.Maps;
+using VSATemplate.Application.Common.Interfaces;
+using VSATemplate.Application.Features.TodoLists;
+using VSATemplate.Application.Infrastructure.Files.Maps;
 
-namespace VerticalSliceArchitecture.Application.Infrastructure.Files;
+namespace VSATemplate.Application.Infrastructure.Files;
 
 public class CsvFileBuilder : ICsvFileBuilder
 {

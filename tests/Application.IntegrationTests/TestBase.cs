@@ -1,8 +1,8 @@
 ﻿using NUnit.Framework;
 
-using static VerticalSliceArchitecture.Application.IntegrationTests.Testing;
+using static VSATemplate.Application.IntegrationTests.Testing;
 
-namespace VerticalSliceArchitecture.Application.IntegrationTests;
+namespace VSATemplate.Application.IntegrationTests;
 public class TestBase
 {
     [SetUp]

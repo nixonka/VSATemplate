@@ -2,9 +2,9 @@
 
 using Microsoft.Extensions.Logging;
 
-using VerticalSliceArchitecture.Application.Common.Models;
+using VSATemplate.Application.Common.Models;
 
-namespace VerticalSliceArchitecture.Application.Features.TodoItems.EventHandlers;
+namespace VSATemplate.Application.Features.TodoItems.EventHandlers;
 
 public class TodoItemCreatedEventHandler : INotificationHandler<DomainEventNotification<TodoItemCreatedEvent>>
 {

@@ -1,4 +1,4 @@
-﻿namespace VerticalSliceArchitecture.Application.Common;
+﻿namespace VSATemplate.Application.Common;
 
 public abstract class AuditableEntity
 {

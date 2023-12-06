@@ -2,13 +2,13 @@
 
 using NUnit.Framework;
 
-using VerticalSliceArchitecture.Application.Common.Exceptions;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Features.TodoLists;
+using VSATemplate.Application.Common.Exceptions;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Features.TodoLists;
 
-using static VerticalSliceArchitecture.Application.IntegrationTests.Testing;
+using static VSATemplate.Application.IntegrationTests.Testing;
 
-namespace VerticalSliceArchitecture.Application.IntegrationTests.TodoLists;
+namespace VSATemplate.Application.IntegrationTests.TodoLists;
 public class UpdateTodoListTests : TestBase
 {
     [Test]

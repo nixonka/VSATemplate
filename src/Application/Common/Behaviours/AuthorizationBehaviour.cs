@@ -2,10 +2,10 @@
 
 using MediatR;
 
-using VerticalSliceArchitecture.Application.Common.Interfaces;
-using VerticalSliceArchitecture.Application.Common.Security;
+using VSATemplate.Application.Common.Interfaces;
+using VSATemplate.Application.Common.Security;
 
-namespace VerticalSliceArchitecture.Application.Common.Behaviours;
+namespace VSATemplate.Application.Common.Behaviours;
 
 public class AuthorizationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

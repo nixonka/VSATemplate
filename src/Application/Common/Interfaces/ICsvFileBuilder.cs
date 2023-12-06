@@ -1,6 +1,6 @@
-﻿using VerticalSliceArchitecture.Application.Features.TodoLists;
+﻿using VSATemplate.Application.Features.TodoLists;
 
-namespace VerticalSliceArchitecture.Application.Common.Interfaces;
+namespace VSATemplate.Application.Common.Interfaces;
 
 public interface ICsvFileBuilder
 {

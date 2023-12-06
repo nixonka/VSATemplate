@@ -1,9 +1,9 @@
-﻿using VerticalSliceArchitecture.Application.Common.Exceptions;
+﻿using VSATemplate.Application.Common.Exceptions;
 using FluentAssertions;
 using FluentValidation.Results;
 using NUnit.Framework;
 
-namespace VerticalSliceArchitecture.Application.UnitTests.Common.Exceptions;
+namespace VSATemplate.Application.UnitTests.Common.Exceptions;
 
 public class ValidationExceptionTests
 {

@@ -1,10 +1,10 @@
 ﻿using FluentAssertions;
 using NUnit.Framework;
-using VerticalSliceArchitecture.Application.Common.Exceptions;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Features.TodoLists;
+using VSATemplate.Application.Common.Exceptions;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Features.TodoLists;
 
-namespace VerticalSliceArchitecture.Application.IntegrationTests.TodoLists;
+namespace VSATemplate.Application.IntegrationTests.TodoLists;
 
 using static Testing;
 

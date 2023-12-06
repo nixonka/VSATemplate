@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace VerticalSliceArchitecture.Application.Common.Mappings;
+namespace VSATemplate.Application.Common.Mappings;
 
 public interface IMapFrom<T>
 {

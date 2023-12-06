@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>VerticalSliceArchitecture.Application.IntegrationTests</RootNamespace>
-        <AssemblyName>VerticalSliceArchitecture.Application.IntegrationTests</AssemblyName>
+        <RootNamespace>VSATemplate.Application.IntegrationTests</RootNamespace>
+        <AssemblyName>VSATemplate.Application.IntegrationTests</AssemblyName>
 
         <IsPackable>false</IsPackable>
         <ImplicitUsings>enable</ImplicitUsings>

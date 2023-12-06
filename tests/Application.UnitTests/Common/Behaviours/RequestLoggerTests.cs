@@ -1,11 +1,11 @@
-﻿using VerticalSliceArchitecture.Application.Common.Behaviours;
-using VerticalSliceArchitecture.Application.Common.Interfaces;
+﻿using VSATemplate.Application.Common.Behaviours;
+using VSATemplate.Application.Common.Interfaces;
 using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
-using VerticalSliceArchitecture.Application.Features.TodoItems;
+using VSATemplate.Application.Features.TodoItems;
 
-namespace VerticalSliceArchitecture.Application.UnitTests.Common.Behaviours;
+namespace VSATemplate.Application.UnitTests.Common.Behaviours;
 
 public class RequestLoggerTests
 {

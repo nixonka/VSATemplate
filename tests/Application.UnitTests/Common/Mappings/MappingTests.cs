@@ -1,11 +1,11 @@
 ﻿using System.Runtime.Serialization;
 using AutoMapper;
-using VerticalSliceArchitecture.Application.Common.Mappings;
+using VSATemplate.Application.Common.Mappings;
 using NUnit.Framework;
-using VerticalSliceArchitecture.Application.Entities;
-using VerticalSliceArchitecture.Application.Features.TodoLists;
+using VSATemplate.Application.Entities;
+using VSATemplate.Application.Features.TodoLists;
 
-namespace VerticalSliceArchitecture.Application.UnitTests.Common.Mappings;
+namespace VSATemplate.Application.UnitTests.Common.Mappings;
 
 public class MappingTests
 {

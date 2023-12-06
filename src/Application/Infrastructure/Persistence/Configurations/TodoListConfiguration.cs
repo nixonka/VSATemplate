@@ -1,9 +1,9 @@
 ﻿// using Microsoft.EntityFrameworkCore;
 // using Microsoft.EntityFrameworkCore.Metadata.Builders;
 //
-// using VerticalSliceArchitecture.Application.Entities;
+// using VSATemplate.Application.Entities;
 //
-// namespace VerticalSliceArchitecture.Application.Infrastructure.Persistence.Configurations;
+// namespace VSATemplate.Application.Infrastructure.Persistence.Configurations;
 //
 // public class TodoListConfiguration : IEntityTypeConfiguration<TodoList>
 // {
